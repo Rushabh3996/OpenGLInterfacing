@@ -9,6 +9,9 @@ IOpenGL* IOpenGL::GetInstance(int classIdentifer)
 	case LIGHTS:
 		iOpenGL = new Lights();
 		break;
+    case CUBE:
+        iOpenGL = new Cube();
+        break;
 	}
 
 	return iOpenGL;
