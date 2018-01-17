@@ -12,6 +12,9 @@ IOpenGL* IOpenGL::GetInstance(int classIdentifer)
     case CUBE:
         iOpenGL = new Cube();
         break;
+	case PYRAMID:
+		iOpenGL = new Pyramid();
+		break;
 	}
 
 	return iOpenGL;

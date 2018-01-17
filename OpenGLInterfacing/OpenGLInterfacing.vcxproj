@@ -146,15 +146,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Cube.cpp" />
     <ClCompile Include="Lights.cpp" />
     <ClCompile Include="IOpenGL.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Pyramid.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClassIdentifiers.h" />
+    <ClInclude Include="Cube.h" />
     <ClInclude Include="Lights.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="IOpenGL.h" />
+    <ClInclude Include="Pyramid.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
