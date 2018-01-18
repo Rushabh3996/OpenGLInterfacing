@@ -21,7 +21,7 @@ void Pyramid::display()
 	void drawPyramid(void);
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
-	glTranslatef(0.0f, 0.0f, -7.0f);
+	glTranslatef(2.5f, -1.5f, -5.0f);
 	glRotatef(angle, 0.0f, 1.0f, 0.0f);
 	drawPyramid();
 }
