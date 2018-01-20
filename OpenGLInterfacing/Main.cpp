@@ -227,6 +227,7 @@ void createObjects(void)
 		iOpenGLObject[i] = IOpenGL::GetInstance(i);
 	}
 }
+
 void initializeObjects(void)
 {
 	int i = 0;
