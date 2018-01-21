@@ -21,13 +21,11 @@ void Cube::display()
     void drawCube(void);
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
-	glScalef(0.75f, 0.75f, 0.75f);
     glTranslatef(-3.0f, 1.7f, -9.0f);
+	glScalef(0.75f, 0.75f, 0.75f);
     glRotatef(angle, 1.0f, 1.0f, 0.0f);
     drawCube();
 }
-
-
 
 void drawCube(void)
 {
