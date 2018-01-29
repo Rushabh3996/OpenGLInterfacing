@@ -151,6 +151,7 @@
     <ClCompile Include="IOpenGL.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Pyramid.cpp" />
+    <ClCompile Include="Sphere.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClassIdentifiers.h" />
@@ -159,6 +160,7 @@
     <ClInclude Include="Main.h" />
     <ClInclude Include="IOpenGL.h" />
     <ClInclude Include="Pyramid.h" />
+    <ClInclude Include="Sphere.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
